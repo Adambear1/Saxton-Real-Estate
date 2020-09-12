@@ -1,18 +1,14 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import About from "./pages/About";
-import SocialMedia from "./pages/SocialMedia";
-import Talents from "./pages/Talents";
-import Location from "./pages/Location";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Talents />
-      <About />
-      <Location />
-      <SocialMedia />
+      <Router>
+        <Home />
+      </Router>
     </div>
   );
 }

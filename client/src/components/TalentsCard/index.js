@@ -2,9 +2,9 @@ import React from "react";
 import "./styles.css";
 function TalentsCard(props) {
   return (
-    <div class="uk-card uk-card-secondary uk-card-body talent-card ">
-      {props.name}
-    </div>
+    <li className="uk-card uk-card-secondary uk-card-body talent-card ">
+      <p className="talent-card-text">{props.name}</p>
+    </li>
   );
 }
 

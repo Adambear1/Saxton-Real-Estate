@@ -1,3 +1,16 @@
 .talent-card-container {
   margin-top: 30px;
 }
+
+.talent-description {
+  width: 100%;
+  height: auto;
+}
+
+.talent-name {
+  width: 100% !important;
+}
+
+.talent-description-name {
+  color: rgba(174, 251, 253, 0.6);
+}

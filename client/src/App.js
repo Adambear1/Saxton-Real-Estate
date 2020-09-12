@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import About from "./pages/About";
+import SocialMedia from "./pages/SocialMedia";
 import Talents from "./pages/Talents";
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <div>
       <Navbar />
       <Talents />
+      <About />
+      <SocialMedia />
     </div>
   );
 }

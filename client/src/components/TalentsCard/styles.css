@@ -1,3 +1,19 @@
 .talent-card {
   border-radius: 20px;
+  padding: 10px;
+  display: inline !important;
+}
+.uk-child-width-1-2\@s > * .talent-card {
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+.talent-card-text {
+  text-shadow: 0.4px 0.4px black;
+  transition: 0.5s linear;
+}
+.talent-card-text:hover {
+  text-shadow: none;
+  cursor: pointer;
+  color: rgb(174, 251, 253);
 }

@@ -6,7 +6,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  border: 2px solid gray;
+  border: 2px solid rgb(174, 251, 253);
   border-right: none;
   border-left: none;
   background-color: rgba(204, 204, 204, 0.1);
@@ -44,13 +44,60 @@
   transform: scale(0.9);
   transition: 0.5s ease;
 }
+
+.social-media-container li:before,
 .social-media-container li:hover:before {
   filter: blur(3px);
   transform: scale(1.2);
-  box-shadow: 0 0 15px #de5400;
 }
-.social-media-container li:hover {
-  color: #ffa502;
-  box-shadow: 0 0 0 15px #de5400;
-  text-shadow: 0 0 0 15px #de5400;
+
+#facebook:hover {
+  color: #4267b2;
+}
+#facebook:before {
+  background: #4267b2;
+}
+#facebook:hover {
+  box-shadow: 0 0 15px #4267b2 !important;
+  text-shadow: 0 0 15px #4267b2 !important;
+}
+#linkedin:hover {
+  color: #2a6cbb;
+}
+#linkedin:before {
+  background: #2a6cbb;
+}
+#linkedin:hover {
+  box-shadow: 0 0 15px #2a6cbb !important;
+  text-shadow: 0 0 15px #2a6cbb !important;
+}
+#instagram:hover {
+  color: #e23670;
+}
+#instagram:before {
+  background: #e23670;
+}
+#instagram:hover {
+  box-shadow: 0 0 15px #e23670 !important;
+  text-shadow: 0 0 15px #e23670 !important;
+}
+#twitter:hover {
+  color: #26a4f2;
+}
+#twitter:before {
+  background: #26a4f2;
+}
+#twitter:hover {
+  box-shadow: 0 0 15px #26a4f2 !important;
+  text-shadow: 0 0 15px #26a4f2 !important;
+}
+#youtube:hover {
+  color: rgb(241, 7, 7);
+}
+#youtube:before {
+  background: rgb(241, 7, 7);
+}
+#youtube:hover {
+  box-shadow: 0 0 15px rgb(241, 7, 7) !important;
+  text-shadow: 0 0 15px rgb(241, 7, 7) !important;
 }

@@ -1,0 +1,11 @@
+.location-address a {
+  text-decoration: none;
+  color: silver !important;
+  opacity: 1 !important;
+}
+
+.location-address a:hover {
+  opacity: 1 !important;
+  text-decoration: underline;
+  text-decoration-color: rgba(174, 251, 253, 0.3);
+}

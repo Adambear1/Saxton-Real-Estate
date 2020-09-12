@@ -35,7 +35,7 @@
 }
 
 .slider-image-overlay:hover:before {
-  opacity: 0;
+  opacity: 0.1;
 }
 
 .slider-image-overlay:hover:before .slider-text-header {

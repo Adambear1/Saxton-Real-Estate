@@ -1,0 +1,10 @@
+.location-main .location-container {
+  margin-left: 20px;
+  background-color: rgba(204, 204, 204, 0.1);
+  border-bottom-width: 0.75px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-style: solid;
+  border-color: rgb(174, 251, 253);
+  margin-bottom: 20px;
+}

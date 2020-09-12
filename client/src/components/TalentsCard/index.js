@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./styles.css";
 function TalentsCard(props) {
   return (
-    <div>
-      <div class="uk-card uk-card-default uk-card-body">{props.name}</div>
+    <div class="uk-card uk-card-secondary uk-card-body talent-card ">
+      {props.name}
     </div>
   );
 }

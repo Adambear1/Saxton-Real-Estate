@@ -1,22 +1,31 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import SocialMediaIcons from "./components/SocialMediaIcons";
-import About from "./pages/About";
-import AdditionalPhotos from "./pages/AdditionalPhotos";
-import Location from "./pages/Location";
-import Talents from "./pages/Talents";
+import React, { lazy, link, Suspense } from "react";
+
+const Navbar = lazy(() => import("./components/Navbar"));
+const SocialMediaIcons = lazy(() => import("./components/SocialMediaIcons"));
+const About = lazy(() => import("./pages/About"));
+const AdditionalPhotos = lazy(() => import("./pages/AdditionalPhotos"));
+const Location = lazy(() => import("./pages/Location"));
+const Talents = lazy(() => import("./pages/Talents"));
 
 function App() {
   return (
     <>
-      <Navbar />
-      <div className="uk-container">
-        <Talents />
-        <About />
-        <Location />
-        <AdditionalPhotos />
-        <SocialMediaIcons />
-      </div>
+      <Suspense
+        fallback={
+          <div class="uk-position-center">
+            <div uk-spinner="true; ratio: 3"></div>
+          </div>
+        }
+      >
+        <Navbar />
+        <div className="uk-container">
+          <Talents />
+          <About />
+          <Location />
+          <AdditionalPhotos />
+          <SocialMediaIcons />
+        </div>
+      </Suspense>
     </>
   );
 }

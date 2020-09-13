@@ -35,7 +35,7 @@ function TalentsContainer() {
           })}
         </ul>
 
-        <ul class="uk-switcher uk-margin talent-description">
+        <ul class="uk-switcher uk-margin talent-description animate__animated animate__zoomInLeft">
           {talents.map((item) => {
             return (
               <p>

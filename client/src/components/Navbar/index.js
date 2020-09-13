@@ -5,23 +5,31 @@ import { Link } from "react-scroll";
 
 function Navbar() {
   return (
-    <div class="uk-position-relative header-nav" id="home">
-      <div class="header-nav-photo-container">
-        <img src={headerPhoto} class="header-nav-photo" />
+    <div className="uk-position-relative header-nav" id="home">
+      {/* <div className="animate__animated animate__zoomIn"> */}
+      <div className=" header-nav-photo-container ">
+        <img src={headerPhoto} className="header-nav-photo" />
       </div>
-      <div class="uk-position-top">
-        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar="true">
-          <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav header-nav-list">
-              <li class="uk-active">
-                <a href="" disabled="true">
+      {/* </div> */}
+      <div className="uk-position-top">
+        <nav
+          className="uk-navbar-container uk-navbar-transparent"
+          uk-navbar="true"
+        >
+          <div className="uk-navbar-right">
+            <ul className="uk-navbar-nav header-nav-list">
+              <li className="uk-active">
+                <a
+                  className="animate__animated animate__fadeIn"
+                  disabled="true"
+                >
                   Home
                 </a>
               </li>
               <li>
                 <Link
                   activeClass="active"
-                  className="header-nav-link"
+                  className="header-nav-link animate__animated animate__fadeInLeft"
                   to="real-estate"
                   spy={true}
                   smooth={true}
@@ -33,7 +41,7 @@ function Navbar() {
               <li>
                 <Link
                   activeClass="active"
-                  className="header-nav-link"
+                  className="header-nav-link animate__animated animate__fadeInUp"
                   to="construction-management"
                   spy={true}
                   smooth={true}
@@ -41,32 +49,11 @@ function Navbar() {
                 >
                   Construction Management
                 </Link>
-                <div class="uk-navbar-dropdown">
-                  <ul class="uk-nav uk-navbar-dropdown-nav">
-                    <li class="uk-active">
-                      <a href="#">Active</a>
-                    </li>
-                    <li>
-                      <a href="#">Item</a>
-                    </li>
-                    <li class="uk-nav-header">Header</li>
-                    <li>
-                      <a href="#">Item</a>
-                    </li>
-                    <li>
-                      <a href="#">Item</a>
-                    </li>
-                    <li class="uk-nav-divider"></li>
-                    <li>
-                      <a href="#">Item</a>
-                    </li>
-                  </ul>
-                </div>
               </li>
               <li>
                 <Link
                   activeClass="active"
-                  className="header-nav-link"
+                  className="header-nav-link animate__animated animate__fadeInRight"
                   to="mergers-and-acquisitions"
                   spy={true}
                   smooth={true}

@@ -41,7 +41,7 @@
   transform: 4s ease;
 }
 
-.header-nav-list a:hover,
+.header-nav-list a:not(:first-child):hover,
 .header-nav-link:hover {
   color: rgb(174, 251, 253) !important;
   text-shadow: -0.25px -0.25px 0 rgba(174, 251, 253, 0.5),

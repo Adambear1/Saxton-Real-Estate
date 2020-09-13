@@ -14,71 +14,9 @@ function Navbar() {
           <div class="uk-navbar-right">
             <ul class="uk-navbar-nav header-nav-list">
               <li class="uk-active">
-                <Link
-                  activeClass="active"
-                  className="header-nav-link"
-                  to="home"
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                >
+                <a href="" disabled="true">
                   Home
-                </Link>
-                <div class="uk-navbar-dropdown">
-                  <ul class="uk-nav uk-navbar-dropdown-nav">
-                    <li>
-                      <Link
-                        activeClass="active"
-                        className="header-nav-link"
-                        to="talents"
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                      >
-                        Talents
-                      </Link>
-                    </li>
-                    <li class="uk-nav-divider"></li>
-                    <li>
-                      <Link
-                        activeClass="active"
-                        className="header-nav-link"
-                        to="about"
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                      >
-                        About
-                      </Link>
-                    </li>
-                    <li class="uk-nav-divider"></li>
-                    <li>
-                      <Link
-                        activeClass="active"
-                        className="header-nav-link"
-                        to="location"
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                      >
-                        Location
-                      </Link>
-                    </li>
-                    <li class="uk-nav-divider"></li>
-                    <li>
-                      <Link
-                        activeClass="active"
-                        className="header-nav-link"
-                        to="socialmedia"
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                      >
-                        Social Media
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
+                </a>
               </li>
               <li>
                 <Link

@@ -1,0 +1,11 @@
+.additional-photo-card-photos {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  height: 220px !important;
+  width: auto;
+}
+
+.additional-photo-card-photos:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}

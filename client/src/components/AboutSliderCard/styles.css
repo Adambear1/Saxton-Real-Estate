@@ -1,3 +1,6 @@
+.about-card {
+  border: 2px solid rgb(174, 251, 253);
+}
 .slider-card-container {
   position: relative;
 }

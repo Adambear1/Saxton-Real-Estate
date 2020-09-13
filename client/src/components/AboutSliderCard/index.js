@@ -4,7 +4,7 @@ import "./styles.css";
 function AboutSliderCard(props) {
   return (
     <li>
-      <div class="uk-card uk-card-default slider-card-container">
+      <div class="uk-card uk-card-default slider-card-container about-card">
         <div class="uk-card-media-top slider-image-overlay">
           <img src={props.image} alt="" class="slider-image" />
         </div>

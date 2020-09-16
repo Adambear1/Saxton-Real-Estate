@@ -8,9 +8,35 @@
 }
 
 .talent-name {
-  width: 100% !important;
+  width: 100%;
 }
 
 .talent-description-name {
   color: rgba(174, 251, 253, 0.6);
+}
+
+@media (max-width: 415px) {
+  .talent-name {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 50%;
+  }
+  .talent-name li {
+    margin-bottom: 10px;
+  }
+  .talent-name li:nth-last-child(3) {
+    margin-left: 20px;
+  }
+  .talent-name li:nth-last-child(1) {
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 376px) {
+  .talent-name {
+    margin-left: 65px;
+    margin-right: 0px;
+    padding-right: 30px;
+  }
 }

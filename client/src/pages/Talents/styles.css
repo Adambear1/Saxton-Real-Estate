@@ -1,0 +1,13 @@
+@media (max-width: 415px) {
+  .talents-body {
+    width: 100% !important;
+    margin-left: center;
+    margin-right: center;
+  }
+  .talents-image-container {
+    display: none;
+  }
+  .uk-child-width-1-2 > * {
+    width: 100% !important;
+  }
+}

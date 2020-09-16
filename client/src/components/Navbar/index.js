@@ -20,7 +20,7 @@ function Navbar() {
             <ul className="uk-navbar-nav header-nav-list">
               <li className="uk-active">
                 <a
-                  className="animate__animated animate__fadeIn"
+                  className="navbar-home animate__animated animate__fadeIn"
                   disabled="true"
                 >
                   Home

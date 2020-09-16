@@ -101,3 +101,9 @@
   box-shadow: 0 0 15px rgb(241, 7, 7) !important;
   text-shadow: 0 0 15px rgb(241, 7, 7) !important;
 }
+
+@media (max-width: 415px) {
+  .social-media-container {
+    margin-left: -30px;
+  }
+}

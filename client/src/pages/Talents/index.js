@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles.css";
 import TalentsContainer from "../../components/TalentsConainer";
 import TalentsHeader from "../../components/TalentsHeader";
 import TalentsPhoto from "../../components/TalentsPhoto";

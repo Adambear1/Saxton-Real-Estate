@@ -5,7 +5,7 @@ function LocationAddress() {
   return (
     <div className="location-address">
       <span
-        uk-icon="icon: location; ratio: 3 "
+        uk-icon="icon: location; ratio: 1 "
         className="uk-margin-bottom uk-margin-top"
       ></span>
       <br />

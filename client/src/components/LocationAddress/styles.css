@@ -3,6 +3,7 @@
   margin-right: auto;
   align-items: center;
   width: 275px;
+  margin-bottom: 30px;
 }
 .location-address span {
   color: rgb(174, 251, 253);
@@ -10,7 +11,7 @@
 .location-address a {
   text-decoration: none;
   color: rgb(243, 243, 243) !important;
-  font-size: 27.5px;
+  font-size: 13.5px;
   opacity: 1 !important;
 }
 

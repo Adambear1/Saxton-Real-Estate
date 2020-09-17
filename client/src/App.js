@@ -21,9 +21,9 @@ function App() {
         <div className="uk-container">
           <Talents />
           <About />
-          <Location />
           <AdditionalPhotos />
           <SocialMediaIcons />
+          <Location />
         </div>
       </Suspense>
     </>

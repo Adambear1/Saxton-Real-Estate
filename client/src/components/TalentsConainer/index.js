@@ -1,5 +1,6 @@
 import React from "react";
 import TalentsCard from "../TalentsCard";
+import TalentsPhotoPag from "../TalentsPhotoPag";
 import "./styles.css";
 
 function TalentsContainer() {
@@ -7,17 +8,17 @@ function TalentsContainer() {
     {
       name: "Project Management",
       about:
-        "Pellentesque consequat viverra pellentesque. Maecenas nisi erat, euismod ut lectus id, sagittis mollis nisi. Aliquam erat volutpat. Mauris orci libero, imperdiet in vestibulum sed, accumsan at nisi. Proin hendrerit a urna eu lobortis. Etiam sed gravida turpis, non aliquet nulla. Phasellus ullamcorper odio nulla, in tincidunt sem dignissim ut.",
+        "Construction project management for residential and commercial real estate development projects. Allow ____ to advocate for the best outcome on your commercial or residential project. Services include planning, contract and bidding negotiation, subcontractor management, operations management, and more. ",
     },
     {
       name: "Mergers and Acquisitions",
       about:
-        "Suspendisse at ullamcorper diam. Duis laoreet ex et quam semper feugiat. Vivamus sodales vitae elit eu aliquam. Ut nisi dolor, rutrum et diam non, semper ultrices enim. Donec a augue at velit sollicitudin dignissim ut in dolor. In ut sem nulla. Vestibulum in leo scelerisque, semper lacus ac, vulputate sem. Donec blandit sapien in ex aliquam, at laoreet urna dapibus.",
+        "Representation and facilitation of private business mergers and acquisitions. Allow an experienced M&A professional guide you through your business merger or acquisition. ",
     },
     {
       name: "Real Estate",
       about:
-        "In eget nulla et sapien finibus consequat. Mauris eu ex sit amet velit ultricies suscipit. Donec bibendum quis nunc sed euismod. Nunc quis neque vitae odio tincidunt porttitor vel sed diam. Vivamus lacinia ligula eu lorem consectetur auctor. Donec feugiat scelerisque sapien, id gravida neque tempus at. Suspendisse at ullamcorper diam. Duis laoreet ex et quam semper feugiat. Vivamus sodales vitae elit eu aliquam. ",
+        " Residential and commercial real estate sales professionals with the knowledge to navigate the always-changing real estate market. ",
     },
   ];
   return (
@@ -44,6 +45,7 @@ function TalentsContainer() {
               </p>
             );
           })}
+          <TalentsPhotoPag />
         </ul>
       </div>
     </div>

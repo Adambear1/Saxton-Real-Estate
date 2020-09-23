@@ -12,25 +12,25 @@ function AboutSliderContainer() {
     {
       name: "About",
       about:
-        "Fusce mi enim, tincidunt vel lectus sed, blandit consequat mi. Vestibulum tristique ante felis, ut varius odio imperdiet vitae. Cras massa massa, hendrerit rutrum erat ac, luctus pulvinar felis. Praesent id varius enim. Integer cursus, eros in sollicitudin fringilla, eros mi bibendum turpis, a rhoncus mauris nisi eu sapien. ",
+        "Owner and Principal, Lauren Saxton, is a talented environmentally/economically conscious construction management professional and skilled real estate broker with a dedication to philanthropic outcomes in the built environment. ",
       image: image,
     },
     {
       name: "Vision",
       about:
-        "Phasellus mattis gravida egestas. Aliquam sed molestie orci. Donec vel dolor eu diam pellentesque varius. Vivamus neque velit, accumsan ac semper nec, pulvinar id enim. Nunc nec pulvinar libero, ut ornare enim. ",
+        "To serve the Tacoma and surrounding area with an energy that contributes to increased affordable housing opportunities and equity for all. As a multifaceted provider of real estate services, construction project management, mergers & acquisitions, and web development services, ____ is ready to help drive our community forward. ",
       image: image1,
     },
     {
       name: "Passion",
       about:
-        "Integer pretium mollis ante, sit amet tincidunt urna eleifend eu. Quisque porttitor ac ante vel tempus. Quisque posuere, leo vitae venenatis tincidunt, sapien sem maximus dolor, sed auctor justo lacus at turpis. Morbi vel volutpat est. ",
+        "The company was formed to be a force for progressive change in the Tacoma community and is committed to contributing to affordable housing solutions for all. Always accepting requests for pro bono services on affordable housing projects.",
       image: image2,
     },
     {
       name: "Experience",
       about:
-        "Donec vel dolor eu diam pellentesque varius. Quisque porttitor ac ante vel vuisque posuere, leo vitae venenatis posuere, leo vitae venenatis tincidunt, orbi vel volutpat est. Ipien sem maximus dolor, sed auctor justo lacus at turpis. M ",
+        " Lauren Saxton has built a well-rounded career that includes residential and commercial real estate sales, construction project management and real estate development. ",
       image: image3,
     },
   ];

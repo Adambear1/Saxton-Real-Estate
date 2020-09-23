@@ -1,6 +1,6 @@
 import React from "react";
 
-function AdditionalPhotosPag() {
+function TalentsPhotoPag() {
   return (
     <div className="uk-pagination">
       <li>
@@ -22,4 +22,4 @@ function AdditionalPhotosPag() {
   );
 }
 
-export default AdditionalPhotosPag;
+export default TalentsPhotoPag;
